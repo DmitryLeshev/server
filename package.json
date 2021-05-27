@@ -1,0 +1,24 @@
+{
+  "name": "v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Dmitry",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.6.0",
+    "redis": "^3.1.2",
+    "ws": "^7.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
