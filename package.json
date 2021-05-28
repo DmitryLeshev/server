@@ -1,0 +1,23 @@
+{
+  "name": "v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "start:dev": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "Dmitry",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.6.0",
+    "ws": "^7.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
